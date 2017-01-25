@@ -14,7 +14,7 @@ p result
 
 conn.exec("INSERT INTO software_items (name, university, contract_signed, category, price) VALUES ('Traffic cop', 'NCSU', true, 'GOV', 125);")
 
-conn.exec("INSERT INTO software_items (name, university, contract_signed, category, price) VALUES ('CTD', 'NCSU', true, 'BIO', 2000);")
+conn.exec("INSERT INTO software_items (name, university, contract_signed, category, price) VALUES ('Comparative Toxicogenomic Database', 'NCSU', true, 'BIO', 2000);")
 
 conn.exec("INSERT INTO software_items (name, university, contract_signed, category, price) VALUES ('DNA Aanlyzer', 'Duke', false, 'BIO', 400);")
 
